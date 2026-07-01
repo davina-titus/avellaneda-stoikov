@@ -100,10 +100,6 @@ python src/backtest.py --sigma 0.03 --gamma 0.2 --k 2.0 --mc 200 --export
 | Horizon | T | 1.00 | Trading session length |
 | Timestep | dt | 0.001 | Simulation resolution |
 
-## What to say in an interview
-
-> "I implemented the closed-form solution to the market maker's Hamilton-Jacobi-Bellman equation from Avellaneda & Stoikov (2008). The key insight is the reservation price — the MM's fair value is skewed away from mid based on current inventory, which makes quotes self-correcting. I derived optimal bid/ask quotes analytically, simulated fills as Poisson arrivals, and compared risk-adjusted PnL against symmetric naive quoting across 200 Monte Carlo paths."
-
 ## References
 
 - Avellaneda, M. & Stoikov, S. (2008). *High-frequency trading in a limit order book*. Quantitative Finance, 8(3), 217-224.
