@@ -19,7 +19,7 @@ import dash_bootstrap_components as dbc
 from model import ASParams, simulate, run_monte_carlo, compute_naive_spread
 
 # ──────────────────────────────────────────────
-# Colour palette — dark terminal aesthetic
+# Colour palette — dark terminal aesthetic 
 # ──────────────────────────────────────────────
 BG        = "#0D0F14"
 PANEL     = "#13161E"
