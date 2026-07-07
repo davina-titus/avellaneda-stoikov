@@ -1,6 +1,6 @@
 # Avellaneda-Stoikov Market Making Simulator
 
-A full implementation of the canonical **Avellaneda & Stoikov (2008)** market making model — the closed-form solution to an optimal control problem for a limit order book market maker managing inventory risk.
+A full implementation of the canonical **Avellaneda & Stoikov (2008)** market making model , the closed-form solution to an optimal control problem for a limit order book market maker managing inventory risk.
 
 ## What this is
 
